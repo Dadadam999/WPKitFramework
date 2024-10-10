@@ -1,21 +1,21 @@
 {
-    "name": "dadadam/wptoolkit",
-    "description": "WP Tool Kit is library for create wordpress plugin.",
+    "name": "arraydev/wp-kit-framework",
+    "description": "WP Kit Framework is library for create wordpress plugin.",
     "type": "library",
     "require": {
         "php": "^8.2||^8.3"
     },
     "autoload": {
         "psr-4": {
-            "WpToolKit\\": "src/"
+            "wpkf\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Andrey Bogdanov",
+            "name": "Dadadam",
             "email": "bogdanov.andrey.code@gmail.com"
         }
     ],
     "license": "MIT",
-    "version": "1.0.4"
+    "version": "1.0.0"
 }
