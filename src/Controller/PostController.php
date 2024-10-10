@@ -1,10 +1,10 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
-use WpToolKit\Entity\Post;
-use WpToolKit\Entity\MetaPoly;
-use WpToolKit\Factory\ServiceFactory;
+use wpkf\Entity\Post;
+use wpkf\Entity\MetaPoly;
+use wpkf\Factory\ServiceFactory;
 
 class PostController
 {

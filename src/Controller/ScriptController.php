@@ -1,8 +1,8 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
-use WpToolKit\Entity\ScriptType;
+use wpkf\Entity\ScriptType;
 
 class ScriptController
 {

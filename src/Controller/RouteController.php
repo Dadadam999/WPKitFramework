@@ -1,10 +1,10 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
 use WP_REST_Request;
-use WpToolKit\Interface\ParamRoureInterface;
-use WpToolKit\Interface\RestRouteInterface;
+use wpkf\Interface\ParamRouteInterface;
+use wpkf\Interface\RestRouteInterface;
 
 abstract class RouteController implements RestRouteInterface
 {
@@ -37,7 +37,7 @@ abstract class RouteController implements RestRouteInterface
         $args = [];
 
         foreach ($params as $param) {
-            if ($param instanceof ParamRoureInterface) {
+            if ($param instanceof ParamRouteInterface) {
                 $args = array_merge($args, $param->getArray());
             }
         }

@@ -1,10 +1,10 @@
 <?php
 
-namespace WpToolKit\Interface;
+namespace wpkf\Interface;
 
 use WP_Error;
 
-interface ParamRoureInterface
+interface ParamRouteInterface
 {
     public function getArray(): array;
 

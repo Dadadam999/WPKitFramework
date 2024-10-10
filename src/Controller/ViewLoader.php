@@ -1,8 +1,8 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
-use WpToolKit\Entity\View;
+use wpkf\Entity\View;
 
 class ViewLoader
 {

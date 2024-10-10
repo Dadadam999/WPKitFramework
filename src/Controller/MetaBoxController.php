@@ -1,10 +1,10 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
-use WpToolKit\Entity\MetaBoxContext;
-use WpToolKit\Entity\MetaBoxPriority;
-use WpToolKit\Interface\MetaBoxInterface;
+use wpkf\Entity\MetaBoxContext;
+use wpkf\Entity\MetaBoxPriority;
+use wpkf\Interface\MetaBoxInterface;
 
 abstract class MetaBoxController implements MetaBoxInterface
 {

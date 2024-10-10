@@ -1,8 +1,8 @@
 <?php
 
-namespace WpToolKit\Field;
+namespace wpkf\Field;
 
-use WpToolKit\Interface\FieldInterface;
+use wpkf\Interface\FieldInterface;
 
 class TextField implements FieldInterface
 {

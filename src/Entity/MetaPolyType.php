@@ -1,6 +1,6 @@
 <?php
 
-namespace WpToolKit\Entity;
+namespace wpkf\Entity;
 
 enum MetaPolyType: string
 {

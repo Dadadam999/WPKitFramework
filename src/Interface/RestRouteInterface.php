@@ -1,6 +1,6 @@
 <?php
 
-namespace WpToolKit\Interface;
+namespace wpkf\Interface;
 
 use WP_REST_Request;
 

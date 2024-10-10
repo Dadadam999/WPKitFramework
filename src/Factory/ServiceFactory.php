@@ -1,9 +1,9 @@
 <?php
 
-namespace WpToolKit\Factory;
+namespace wpkf\Factory;
 
-use WpToolKit\Controller\MenuController;
-use WpToolKit\Controller\ScriptController;
+use wpkf\Controller\MenuController;
+use wpkf\Controller\ScriptController;
 
 class ServiceFactory
 {

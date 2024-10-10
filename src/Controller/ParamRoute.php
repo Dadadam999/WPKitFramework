@@ -1,11 +1,11 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
 use WP_Error;
-use WpToolKit\Interface\ParamRoureInterface;
+use wpkf\Interface\ParamRouteInterface;
 
-abstract class ParamRoute implements ParamRoureInterface
+abstract class ParamRoute implements ParamRouteInterface
 {
     public function __construct(
         public string $name,

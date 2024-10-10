@@ -1,9 +1,9 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
-use WpToolKit\Factory\ServiceFactory;
-use WpToolKit\Interface\ContentHandlerInterface;
+use wpkf\Factory\ServiceFactory;
+use wpkf\Interface\ContentHandlerInterface;
 
 abstract class AdminPage implements ContentHandlerInterface
 {

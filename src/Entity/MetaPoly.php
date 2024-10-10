@@ -1,8 +1,8 @@
 <?php
 
-namespace WpToolKit\Entity;
+namespace wpkf\Entity;
 
-use WpToolKit\Entity\MetaPolyType;
+use wpkf\Entity\MetaPolyType;
 
 class MetaPoly
 {

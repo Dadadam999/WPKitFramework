@@ -1,10 +1,10 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
-use WpToolKit\Entity\Post;
-use WpToolKit\Entity\Taxonomy;
-use WpToolKit\Factory\ServiceFactory;
+use wpkf\Entity\Post;
+use wpkf\Entity\Taxonomy;
+use wpkf\Factory\ServiceFactory;
 
 class TaxonomyController
 {

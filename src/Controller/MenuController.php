@@ -1,6 +1,6 @@
 <?php
 
-namespace WpToolKit\Controller;
+namespace wpkf\Controller;
 
 class MenuController
 {
